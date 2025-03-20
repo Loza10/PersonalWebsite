@@ -1,0 +1,80 @@
+
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Projects | Zakk Loveall</title>
+{% endblock %}
+
+{% block body %}
+<div class="project-container">
+    <div class="project-header">
+        <h1>Personal Projects</h1>
+        <p>A collection of projects I've worked on over the years.</p>
+    </div>
+
+    <div class="project-list">
+        <div class="project-text">
+            <h2>
+                <a href="https://github.com/Loza10/ACO" target="_blank">Learning in Generated Environments</a>
+            </h2>
+            <p>
+                Worked with a small team to build a simulation that would mimic learning behaviors in randomly generated environments at a small scale.
+                Utilized Unity Game Engine (C#) to complete this project. Leveraged a novel form of the Ant Colony Optimization algorithm that made use of
+                a dual pheromone system in order to increase learning efficiency. Made use of Perlin Noise with Open Simplex Noise to randomly generate
+                unique environments in order to ensure quality results. 
+            </p>
+        </div>
+        <div class="project-text">
+            <h2>Minecraft Hub Server</h2>
+            <p>
+                Developed, owned, and managed a Minecraft server with a consistent player base of 150 active users, specializing in hosting custom mini-games. 
+                Utilized Minecraft's Java API to create and implement plugins for automating game mechanics and enhancing player experiences. Led a 15-person 
+                staff team, conducting interviews and overseeing daily operations to ensure smooth gameplay and server management. Demonstrated strong problem-solving 
+                and communication skills while maintaining high levels of player engagement and server performance.  
+            </p>
+        </div>
+        <div class="project-text">
+            <h2>
+                <a href="https://github.com/Loza10/CarCrashAnalysis" target="_blank">Car Crash Analysis</a>
+            </h2>
+            <p>
+                Employed five distinct feature selection methods (Sequential Feature Selection, Recursive Feature Elimination, Variance Thresholding, 
+                Random Forest-based Feature Selection, and Neural Network-based Feature Selection) in Python to identify the most impactful features contributing to car crash 
+                severity. Utilized cross-validation to assess model accuracy, performance variance, and computational efficiency. Gained valuable insights into the 
+                primary factors influencing the severity of car accidents, guiding data-driven decision-making.
+            </p>
+        </div>
+        
+        <div class="project-text">
+            <h2>
+                <a href="https://github.com/Loza10/NaturalSelection" target="_blank">Natural Selection Simulation</a>
+            </h2>
+            <p>
+                Developed a predator-prey simulation in C++ to model the interaction between lions and deer, focusing on natural selection and genetic inheritance. Implemented 
+                breeding mechanics where animals inherit and modify speed traits based on their parents' genes. The simulation tracks the populations of both species and their 
+                survival based on speed, with lions hunting deer based on relative speeds. This project showcases object-oriented programming and the application of genetic 
+                algorithms to simulate evolutionary dynamics.
+            </p>
+        </div>
+        <div class="project-text">
+            <h2>
+                <a href="https://github.com/Loza10/TileBasedGame" target="_blank">Maze Puzzle Game</a>
+            </h2>
+            <p>
+                Collaborated on creating a tile-based maze puzzle game in Java, utilizing bit logic to generate maze walls on larger tiles. Applied Kanban-based agile 
+                methodology to manage tasks and ensure efficient project execution. Implemented a timer to track puzzle completion time and a tile rotation feature, 
+                enhancing gameplay dynamics.
+            </p>
+        </div>
+        <div class="project-text">
+            <h2>
+                <a href="https://github.com/Loza10/MazeSolver" target="_blank">Maze Generator and Solver</a>
+            </h2>
+            <p>
+                Implemented a maze generator in Python using recursive backtracking to create scalable, randomly generated mazes. Integrated the A* algorithm to efficiently 
+                calculate the shortest path between any two points in the maze, optimizing pathfinding performance.  
+            </p>
+        </div>
+    </div>
+</div>
+{% endblock %}

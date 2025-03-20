@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Home | Zakk Loveall</title>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="header">
+        <h1>Zakk Loveall</h1>
+        <p>Data Scientist | Software Engineer | Student</p>
+        <p>
+            <a href="https://github.com/Loza10" target="_blank">GitHub</a> |
+            <a href="https://www.linkedin.com/in/zakkary-loveall-01ba70264/" target="_blank">LinkedIn</a>
+        </p>
+    </div>
+
+    <div class="about-me">
+        <img src="{{ url_for('static', filename='images/prof.jpg') }}" alt="Zakk Loveall">
+        <div class="text">
+            <h2>About Me</h2>
+            <p>
+                A human-centered Data Scientist and Software Engineer actively pursuing a part time masters degree in analytics
+                on the Data Science track from the Georiga Institude of Technology. I’ve been programming since a young age, and it’s always 
+                been my dream to contribute to an organization where I can make a meaningful impact. My bachelor's degree in Computer Science 
+                with a concentration in Big Data from the University of Wyoming equipped me with the skills to turn that dream into a reality. 
+                Now, I’m looking for a full-time opportunity where I can apply my talents to positively impact others.
+            </p>
+            <p>
+                For the past four years I've primarily used what I've learned to participate in A.I. focused research and student mentorship. I was lucky
+                enough to be able to contribute to the University of Wyoming's Artificial Intelligence Lab where I helped a graduate student and mentor
+                of mine implement A.I. guided pathfinding algorithms into robots and establishing a robotics club. We used a combination of Q-Learning and
+                convolutional neural networks to better improve autonomous movement through image processing. These robots were also instrumental in launching 
+                a robotics club aimed at educating students about real-world applications of programming.
+            </p>
+            <p>
+                During that time, I also worked as a teaching assistant for introductory Computer Science and a Peer Mentor Analyst for the Student Success
+                team. During my time with the Student Success team, I mentored students and did research on factors that contribute most to student retention
+                rates. This role enhanced my understanding of data-driven decision-making. Most of my time on our analysis team was spent cleaning,
+                visualizing, and analyzing data in order to figure out what actions our team could take that would help student graduate. With the combined effort
+                of our team, we were able to see a 10% improvement in student retention rates. This experience also led to my selection as an advisor on a board of 
+                professors focused on organizing and implementing innovative first-year courses centered on success strategies and resource management.
+            </p>
+            <p>
+                Outside of my passion for computer science and analytics, I love to spend my weekends hiking through the rocky mountains of Colorado during the summers.
+                When I can, I like to put time into my passion for photography, and I'm currently shooting on a DSLR Cannon EOS Rebel T6. And during the winters, I spend 
+                most of my time skiing and playing video games. I also play guitar whenever I get a chance and hope to one day finish an album I've been working on with my 
+                Dad. I've been listening to a lot of Beck recently, specifically Sea Change and Morning Phase, so if I had to recommend anything at the moment, it would be these two albums. 
+            </p>
+        </div>
+    </div>
+</div>
+{% endblock %}

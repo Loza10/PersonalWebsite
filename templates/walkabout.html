@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <title>Walkabout</title>
+{% endblock %}
+
+{% block body %}
+    <div class="walkabout-container">
+        <div class="walkabout-header">
+            <h1>Walkabout</h1>
+            <p>A good friend and mentor of mine, Paul Taylor, lives by the idea of using stories as a way of teaching people. Walkabouts are a way of taking us through the journey of people(s) lives and helping us grasp the 
+                importance of their experiences. If you want to understand who someone is, you need to know their story. This is my professional walkabout, I hope it helps.</p>
+        </div>
+
+        <div class="walkabout-list">
+            <div class="walkabout-item left">
+                <img src="{{ url_for('static', filename='images/walkabout/prof1.jpg') }}" alt="Walkabout Image 1">
+                <div class="walkabout-text">
+                    <h2>Student Success</h2>
+                    <p>The team I had the privilege to be part of during my time as a Peer Mentor Analyst. The organization was overseen by professional staff, but was managed mostly students, which was an awesome experience.
+                        It taught me a lot about what it means to be a leader and to pursue a goal out of pure passion for helping others.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="walkabout-item right">
+                <img src="{{ url_for('static', filename='images/walkabout/prof2.png') }}" alt="Walkabout Image 2">
+                <div class="walkabout-text">
+                    <h2>First Speech</h2>
+                    <p>During my time as a Peer Mentor Analyst, I was lucky enough to be able to give a speech to the Engineering students on campus about what our research has shown regarding student success strategies.
+                        Don't mind the poor image quality.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="walkabout-item left">
+                <img src="{{ url_for('static', filename='images/walkabout/prof3.jpg') }}" alt="Walkabout Image 3">
+                <div class="walkabout-text">
+                    <h2>Mentorship</h2>
+                    <p>This was a wonderful group of computer science students I mentored during their first year of college. I learned so much from this experience about what it means to be someone that others can look
+                        to for complex advice.
+                    </p>
+                </div>
+            </div>
+
+            <div class="walkabout-item right">
+                <img src="{{ url_for('static', filename='images/walkabout/prof8.jpg') }}" alt="Walkabout Image 4">
+                <div class="walkabout-text">
+                    <h2>Research Project</h2>
+                    <p>The final flier my research group made for the local A.I. focused robotics club we started. For context, these were the robots we experimented with for implementing our A.I. algorithms in order to solve autonomous
+                        movement problems.
+                    </p>
+                </div>
+            </div>
+
+            <div class="walkabout-item left">
+                <img src="{{ url_for('static', filename='images/walkabout/prof9.jpg') }}" alt="Walkabout Image 5">
+                <div class="walkabout-text">
+                    <h2>Walkabout Mentor</h2>
+                    <p>I've been lucky to become close friends with a professor of mine, Paul Taylor, who inspired this section of my website. This was taken after a very nice dinner we all had together. I've learned so much about life
+                        and the way the world works from him.
+                    </p>
+                </div>
+            </div>
+
+            <div class="walkabout-item right">
+                <img src="{{ url_for('static', filename='images/walkabout/prof4.jpg') }}" alt="Walkabout Image 4">
+                <div class="walkabout-text">
+                    <h2>Hobby Paid Off</h2>
+                    <p>For a long time, I've been doing photography as a hobby of mine. I was lucky enough to have one of my pictures hung up in the student affairs building on campus. I was very surprised to see it because I had no idea
+                        it was chosen to be a piece of art in the remodeled building. 
+                    </p>
+                </div>
+            </div>
+
+            <div class="walkabout-item left">
+                <img src="{{ url_for('static', filename='images/walkabout/prof7.jpg') }}" alt="Walkabout Image 4">
+                <div class="walkabout-text">
+                    <h2>The Last Day</h2>
+                    <p>This was taken on graduation day. Needless to say, these are all of my favorite people in the world (missing a few). Including my Dad, who was nice enough to be taking the photo. I'll never forget the excitement of, for the final time, 
+                        merging my branch to main in GitHub, turning in my last assignment of my undergrad.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+{% endblock %}
